@@ -1,0 +1,242 @@
+2024-01-24 12:55:16,225 - INFO - Transform culture function completed successfully
+2024-01-29 15:01:16,011 - ERROR - Preprocess data from excel function failed with error: [Errno 2] No such file or directory: 'USA\\data\\raw\\MDR-TB_data_set_bulk_upload_dec.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 31, in preprocess_data_from_excel
+    excel_data = _load_data_from_excel(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 13, in _load_data_from_excel
+    xl_file = pd.ExcelFile(file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'USA\\data\\raw\\MDR-TB_data_set_bulk_upload_dec.xlsx'
+2024-01-29 15:03:43,461 - ERROR - Preprocess data from excel function failed with error: [Errno 2] No such file or directory: 'USA\\data\\raw\\MDR-TB_data_set_bulk_upload_dec.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 31, in preprocess_data_from_excel
+    excel_data = _load_data_from_excel(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 13, in _load_data_from_excel
+    xl_file = pd.ExcelFile(file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'USA\\data\\raw\\MDR-TB_data_set_bulk_upload_dec.xlsx'
+2024-01-29 15:06:17,323 - ERROR - Preprocess data from excel function failed with error: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR-TB_data_set_bulk_upload_dec.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 31, in preprocess_data_from_excel
+    excel_data = _load_data_from_excel(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 13, in _load_data_from_excel
+    xl_file = pd.ExcelFile(file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR-TB_data_set_bulk_upload_dec.xlsx'
+2024-01-29 15:12:32,582 - ERROR - Preprocess data from excel function failed with error: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR_TB_data_set_bulk_upload_dec.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 31, in preprocess_data_from_excel
+    excel_data = _load_data_from_excel(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 13, in _load_data_from_excel
+    xl_file = pd.ExcelFile(file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR_TB_data_set_bulk_upload_dec.xlsx'
+2024-01-29 15:22:57,689 - ERROR - Preprocess data from excel function failed with error: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR_TB_data_set_bulk_upload_dec.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 31, in preprocess_data_from_excel
+    excel_data = _load_data_from_excel(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 13, in _load_data_from_excel
+    xl_file = pd.ExcelFile(file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR_TB_data_set_bulk_upload_dec.xlsx'
+2024-01-29 15:25:19,788 - ERROR - Preprocess data from excel function failed with error: [Errno 2] No such file or directory: 'COUNTRIES\\MEXICO\\data\\raw\\Mexico_Data_Case_Brower_Nov_21_Batch_7.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 31, in preprocess_data_from_excel
+    excel_data = _load_data_from_excel(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 13, in _load_data_from_excel
+    xl_file = pd.ExcelFile(file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'COUNTRIES\\MEXICO\\data\\raw\\Mexico_Data_Case_Brower_Nov_21_Batch_7.xlsx'
+2024-01-29 15:25:43,355 - ERROR - Preprocess data from excel function failed with error: [Errno 2] No such file or directory: 'MEXICO\\data\\raw\\Mexico_Data_Case_Brower_Nov_21_Batch_7.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 31, in preprocess_data_from_excel
+    excel_data = _load_data_from_excel(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 13, in _load_data_from_excel
+    xl_file = pd.ExcelFile(file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'MEXICO\\data\\raw\\Mexico_Data_Case_Brower_Nov_21_Batch_7.xlsx'
+2024-01-29 15:27:25,087 - INFO - Loaded data from excel function executed successfully
+2024-01-29 15:27:25,092 - ERROR - Preprocess data from excel function failed with error: Cannot save file into a non-existent directory: 'COUNTRIES\USA\data\interm'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 48, in preprocess_data_from_excel
+    excel_data.to_csv(csv_file_path, index=False)
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\util\_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\core\generic.py", line 3720, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\util\_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\formats\format.py", line 1189, in to_csv
+    csv_formatter.save()
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\formats\csvs.py", line 241, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 734, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 597, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'COUNTRIES\USA\data\interm'
+2024-01-29 15:30:03,343 - INFO - Loaded data from excel function executed successfully
+2024-01-29 15:30:03,343 - ERROR - Preprocess data from excel function failed with error: Cannot save file into a non-existent directory: 'COUNTRIES\USA\data\interm'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 48, in preprocess_data_from_excel
+    excel_data.to_csv(csv_file_path, index=False)
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\util\_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\core\generic.py", line 3720, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\util\_decorators.py", line 211, in wrapper
+    return func(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\formats\format.py", line 1189, in to_csv
+    csv_formatter.save()
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\formats\csvs.py", line 241, in save
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 734, in get_handle
+    check_parent_directory(str(handle))
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 597, in check_parent_directory
+    raise OSError(rf"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'COUNTRIES\USA\data\interm'
+2024-01-29 15:33:27,909 - INFO - Loaded data from excel function executed successfully
+2024-01-29 15:33:27,927 - INFO - Preprocess data from excel function executed successfully
+2024-01-29 15:34:56,929 - ERROR - Preprocess data from excel function failed with error: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR_TB_data_set_bulk_upload_dec.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 31, in preprocess_data_from_excel
+    excel_data = _load_data_from_excel(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 13, in _load_data_from_excel
+    xl_file = pd.ExcelFile(file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR_TB_data_set_bulk_upload_dec.xlsx'
+2024-01-29 15:35:40,388 - ERROR - Preprocess data from excel function failed with error: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR_TB_data_set_bulk_upload_dec.xlsx'
+Traceback (most recent call last):
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 31, in preprocess_data_from_excel
+    excel_data = _load_data_from_excel(file_path)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Documents\AVID-projects\Code\DEPOT-Code\Bulk-Upload-Dev\src\modules\excel_mod.py", line 13, in _load_data_from_excel
+    xl_file = pd.ExcelFile(file_path)
+              ^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1652, in __init__
+    ext = inspect_excel_format(
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\excel\_base.py", line 1525, in inspect_excel_format
+    with get_handle(
+         ^^^^^^^^^^^
+  File "c:\Users\muntanerl2\Anaconda3\envs\NTM-env\Lib\site-packages\pandas\io\common.py", line 865, in get_handle
+    handle = open(handle, ioargs.mode)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'COUNTRIES\\USA\\data\\raw\\MDR_TB_data_set_bulk_upload_dec.xlsx'
+2024-01-29 15:35:50,641 - INFO - Loaded data from excel function executed successfully
+2024-01-29 15:35:50,658 - INFO - Preprocess data from excel function executed successfully
+2024-01-30 08:56:57,140 - ERROR - Error transforming patient case table: day is out of range for month: 29-Feb-2021 present at position 54
+2024-01-30 09:11:43,195 - INFO - Transformed patient case table
+2024-01-30 11:10:44,559 - INFO - Transformed patient case table
+2024-01-31 09:49:07,247 - INFO - Transformed patient case table
+2024-01-31 10:13:59,960 - INFO - Transformed condition table
+2024-01-31 10:46:10,626 - ERROR - Error transforming microscopy table: day is out of range for month present at position 54
+2024-01-31 10:51:46,857 - INFO - Transformed patient case table
+2024-01-31 10:52:26,798 - INFO - Transformed condition table
+2024-01-31 10:53:05,281 - ERROR - Error transforming microscopy table: day is out of range for month: 2021-02-29 present at position 54
+2024-01-31 10:56:44,945 - INFO - Transformed patient case table
+2024-01-31 10:56:54,050 - INFO - Transformed condition table
+2024-01-31 10:59:55,297 - ERROR - Error transforming microscopy table: day is out of range for month: 2021-02-29 present at position 54
+2024-01-31 11:07:40,070 - INFO - Transformed patient case table
+2024-01-31 11:07:47,910 - INFO - Transformed condition table
+2024-01-31 11:12:34,032 - ERROR - Error transforming microscopy table: day is out of range for month: 2021-02-29 present at position 54
+2024-01-31 11:41:49,625 - INFO - Transformed patient case table
+2024-01-31 11:41:59,818 - INFO - Transformed condition table
+2024-01-31 11:42:56,838 - INFO - Microscopy table transformed successfully
+2024-01-31 12:04:16,147 - INFO - Transformed patient case table
+2024-01-31 12:04:25,987 - INFO - Transformed condition table
+2024-01-31 12:04:36,146 - INFO - Microscopy table transformed successfully
+2024-01-31 12:06:43,415 - INFO - Transform culture function completed successfully
+2024-01-31 12:12:25,686 - INFO - Transformed patient case table
+2024-01-31 12:12:32,918 - INFO - Transformed condition table
+2024-01-31 12:12:38,148 - INFO - Microscopy table transformed successfully
+2024-01-31 12:13:46,010 - INFO - Transform culture function completed successfully
+2024-01-31 12:19:04,780 - INFO - Specimen data transformed

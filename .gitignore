@@ -1,0 +1,14 @@
+# Python
+__pycache__/
+
+# vscode settings
+.vscode/
+
+# Environment variable file
+.env
+
+# Subfolders in the COUNTRIES folder
+COUNTRIES/*
+
+# Config file inside config folder
+config/config.yml
